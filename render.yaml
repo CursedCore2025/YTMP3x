@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ytmp3-converter
+    env: node
+    buildCommand: npm install
+    startCommand: bash start.sh
+    plan: free
